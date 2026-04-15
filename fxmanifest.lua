@@ -5,9 +5,9 @@ description 'Qbox Garages app for NPWD'
 version '1.1.0'
 repository 'https://github.com/Qbox-Project/npwd_qbx_garages'
 
-ox_lib 'locale'
+cc_lib 'locale'
 shared_scripts {
-    '@ox_lib/init.lua',
+    '@cc_lib/init.lua',
     '@qbx_core/modules/lib.lua'
 }
 
